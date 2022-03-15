@@ -16,10 +16,10 @@ this command prints the josb list (unfinished and stopped)
 1. **External Commands** - shell supports bash commands for all the none built in commands
 1. **head [-N] <file>** - the command prints the first N line of the file, if N is not specified its 10 by default.
  
- -The shell supports Pipes using 
- -command1 | command2 - redirects command1 stdout to its write channel and command2 stdin to its read channel
- -command1 |& command 2 - redirects command1 stderr to the pipe’s write channel and command2 stdin to the pipe’s read channel
--The shell supports redirection using 
- -command > output redirects the output of the command to the specified file. If the file exists it overrides it 
- -command >> output same, but if the file exists it will append to the file
+- he shell supports Pipes using 
+ - command1 | command2 - redirects command1 stdout to its write channel and command2 stdin to its read channel
+ - command1 |& command 2 - redirects command1 stderr to the pipe’s write channel and command2 stdin to the pipe’s read channel
+- The shell supports redirection using 
+ - command > output redirects the output of the command to the specified file. If the file exists it overrides it 
+ - command >> output same, but if the file exists it will append to the file
 External commands can run in the background if you add & to the end of the command line
