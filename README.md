@@ -22,4 +22,6 @@ this command prints the josb list (unfinished and stopped)
 - The shell supports redirection using 
  - command > output redirects the output of the command to the specified file. If the file exists it overrides it 
  - command >> output same, but if the file exists it will append to the file
+ 
+ 
 External commands can run in the background if you add & to the end of the command line
